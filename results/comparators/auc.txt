@@ -1,0 +1,15 @@
+python tools/generate_comparison_graph.py --env-name SixLargeRooms --iters 30000 --alg qlearn
+AUC MAR TReX: 20.229179988001576 % Optimal AUC: 72.52886031256494
+AUC MAR qlearn: 12.77942509092711 % Optimal AUC: 45.818819044790416
+
+python tools/generate_comparison_graph.py --env-name SixLargeRooms --iters 30000 --alg countbased
+AUC MAR TReX: 16.935266815231483 % Optimal AUC: 60.719001063141114
+AUC MAR countbased: 9.753331153459087 % Optimal AUC: 34.96918773924584
+
+python tools/generate_comparison_graph.py --env-name SixLargeRooms --iters 30000 --alg softmax
+AUC MAR TReX: 17.983355515768906 % Optimal AUC: 64.4767746852822
+AUC MAR softmax: 17.14241642957942 % Optimal AUC: 61.46170667215516
+
+ python tools/generate_comparison_graph.py --env-name SixLargeRooms --iters 30000 --alg pursuit
+AUC MAR TReX: 18.58526393504923 % Optimal AUC: 66.63483208992405
+AUC MAR pursuit: 17.696855983477583 % Optimal AUC: 63.4495711817542

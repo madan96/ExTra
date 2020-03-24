@@ -1,0 +1,13 @@
+__pycache__
+.gitconfig
+.cache
+.tox
+.env
+.ropeproject
+*.so
+*.pyc
+MANIFEST
+*.egg*
+build
+dist
+pyemd/emd.cpp

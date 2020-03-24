@@ -1,0 +1,4 @@
+nine inv -> nine dr:0.7 dkd:0.3
+six inv -> six dr:0.4 dkd:0.6
+four inv -> four dr:0.3 dkd:0.7
+four small -> six large dr:0.1 dkd: 0.9

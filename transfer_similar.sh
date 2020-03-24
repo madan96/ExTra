@@ -1,0 +1,6 @@
+python run_trex_curr.py --src-env SixLargeRooms_1 --tgt-env SixLargeRooms_6 --env-name SixLargeRooms_6 --transfer optimistic --discount-r 0.2 --discount-kd 0.9 --lfp-iters 7 --mode train --num-iters 30000 --epsilon 0.5 --temp 1 --explore epsilon-trex --num-seeds 10
+python run_trex_curr.py --src-env SixLargeRooms_2 --tgt-env SixLargeRooms_6 --env-name SixLargeRooms_6 --transfer optimistic --discount-r 3.1 --discount-kd 0.4 --lfp-iters 7 --mode train --num-iters 30000 --epsilon 0.5 --temp 1 --explore epsilon-trex --num-seeds 10
+python run_trex_curr.py --src-env SixLargeRooms_3 --tgt-env SixLargeRooms_6 --env-name SixLargeRooms_6 --transfer optimistic --discount-r 0.2 --discount-kd 0.9 --lfp-iters 7 --mode train --num-iters 30000 --epsilon 0.5 --temp 1 --explore epsilon-trex --num-seeds 10
+python run_trex_curr.py --src-env SixLargeRooms_4 --tgt-env SixLargeRooms_6 --env-name SixLargeRooms_6 --transfer optimistic --discount-r 0.2 --discount-kd 0.9 --lfp-iters 7 --mode train --num-iters 30000 --epsilon 0.5 --temp 1 --explore epsilon-trex --num-seeds 10
+python run_trex_curr.py --src-env SixLargeRooms_5 --tgt-env SixLargeRooms_6 --env-name SixLargeRooms_6 --transfer optimistic --discount-r 0.2 --discount-kd 0.9 --lfp-iters 7 --mode train --num-iters 30000 --epsilon 0.9 --temp 1 --explore epsilon-trex --num-seeds 10
+
